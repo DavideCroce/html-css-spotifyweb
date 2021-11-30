@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.main-part{
+    display: flex;
+}
+
+.side-bar{
+    width: 25%;
+    height: 80vh;
+    background-color: black;
+}
+
+.main-page{
+    width: 75%;
+    height: 80vh;
+    background-color: lightblue;
+}
