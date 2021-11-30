@@ -28,9 +28,7 @@ body{
     height: 100%;
     background-color: black;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    position: relative;
 }
 
 .main-page{
@@ -82,7 +80,8 @@ main{
     padding-right: 90px;
     padding-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    width: 250px;
+    margin-bottom: 30px;
 }
 
 .nav-icons{
@@ -97,6 +96,7 @@ main{
     color: grey;
     margin-left: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -142,7 +142,7 @@ ul{
     font-size: 16px;
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 
 .download{
@@ -158,4 +158,27 @@ hr{
     border: solid 1px grey;
     color: grey;
     margin: 10px 20px;
+}
+
+.profile-pic{
+    width: 40px;
+    background-color: rgb(155, 153, 153);
+    border-radius: 50%;
+    padding: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.profile{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sidebar-footer{
+    position: fixed;
 }
