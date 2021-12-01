@@ -190,3 +190,42 @@ hr{
     font-weight: bold;
     font-size: 14px;
 }
+
+h1{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.songs{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.st{
+    width: 50%;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.only-one img{
+    width: 150px;
+    height: 150px;
+}
+
+.only-one h2,
+.only-one p{
+    width: 100%
+}
+
+.only-one p{
+    font-size: 10px;
+    color: grey;
+}
+
