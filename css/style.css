@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ body{
     width: 300px;
     height: 100%;
     background-color: black;
-    overflow-y: auto;
+
     position: relative;
 }
 
@@ -40,6 +40,8 @@ header{
     width: calc(100vw - 300px);
     height: 100px;
     background-color: #080b12;
+    text-align: right;
+    padding: 25px 20px;
 
 }
 
@@ -54,10 +56,6 @@ main{
     width: 100%;
     height: 100px;
     background-color: #282828;
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
 }
 
 /* header */
@@ -69,7 +67,6 @@ main{
     border: solid 1px white;
     font-size: 16px;
     border-radius: 40px;
-    text-align: right;
 }
 
 /* sidebar*/
@@ -130,6 +127,7 @@ ul{
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+    overflow-y: auto;
 }
 
 .pl{
@@ -141,7 +139,7 @@ ul{
     font-size: 16px;
     font-weight: bold;
     margin-left: 15px;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 
 .download{
@@ -178,6 +176,17 @@ hr{
 
 }
 
-.sidebar-footer{
-    position: fixed;
+
+/* main */
+.mn{
+    margin: 5px 20px;
+}
+
+.main-navbar{
+    list-style-type: none;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
 }
