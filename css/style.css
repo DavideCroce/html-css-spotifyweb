@@ -1,3 +1,5 @@
+/*generics*/
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,8 @@ html{
 body{
     font-family: 'Lato', sans-serif;
 }
+
+/*main part - ultilities*/
 
 .main-part{
     width: 100%;
@@ -89,6 +93,8 @@ main{
    opacity: 0.5;
 }
 
+/*nav-icons*/
+
 .home{
     border-left: green solid 5px;
     padding-left: 17px;
@@ -102,6 +108,8 @@ main{
     margin-bottom: 20px;
     z-index: 1;
 }
+
+/*Playlis-list*/
 
 ul{
     list-style-type: none;
@@ -130,6 +138,8 @@ ul{
 
 }
 
+/* list of created playlist */
+
 .name-pl{
     color: grey;
     font-size: 18px;
@@ -142,6 +152,8 @@ ul{
 .pl{
     margin-top: 20px;
 }
+
+/*download and profile part*/
 
 .download-app{
     color: grey;
@@ -196,6 +208,9 @@ hr{
 
 
 /* main */
+
+/*main navbar*/
+
 .mn{
     margin: 5px 20px;
 }
@@ -208,6 +223,8 @@ hr{
     font-weight: bold;
     font-size: 14px;
 }
+
+/*recently playied*/
 
 .recent-playied h1{
     margin: 30px 20px;
@@ -272,6 +289,8 @@ h2{
     color: grey;
 }
 
+/*mixes created for you*/
+
 .create-for{
     margin-top: 100px;
 }
@@ -291,6 +310,8 @@ h2{
 .create-for p{
     color: grey;
 }
+
+/*popular creators*/
 
 .popular-creators{
     margin-top: 70px;
@@ -333,6 +354,8 @@ h2{
     align-items: center;
 }
 
+/*current song, favourite, and add in a playlist*/
+
 .title img{
     width: 50px;
     height: 50px;
@@ -364,6 +387,8 @@ h2{
     font-size: 12px;
     color: grey;
 }
+
+/* music player and song-bar*/
 
 .music-player{
     display: flex;
@@ -421,8 +446,10 @@ h2{
     background-color: #fff;
     border-radius: 50%;
     margin-left: 95%;
-    display: none;
+    visibility: hidden;
 }
+
+/*audio, desktop and list icons*/
 
 .audio-and-others{
     display: flex;
@@ -457,40 +484,49 @@ h2{
 
 .nav-icons:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .nav-bar li:hover{
     color: white;
+    cursor: pointer;
 }
 
 .fa-plus:hover{
     background-color: #fff;
+    cursor: pointer;
 }
 
 .song-and-creator p:hover{
     color: white;
+    cursor: pointer;
 }
 
 .pl:hover{
     color: white;
+    cursor: pointer;
 }
 
 .download-app:hover{
     color: white;
+    cursor: pointer;
 }
 
 .mn:hover{
     color: white;
+    cursor: pointer;
 }
 
 .create-playlist:hover{
     color: white;
+    cursor: pointer;
 }
 
 /* underline hovers */
 
 .song-and-creator h4:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -498,14 +534,17 @@ h2{
 
 .img-play img:hover{
    opacity: 0.4;
+   cursor: pointer;
 }
 
 .img-play i:hover{
     visibility: visible;
+    cursor: pointer;
 }
 
 .upgrade:hover{
     animation: grow 1s;
+    cursor: pointer;
 }
 
 @keyframes grow{
@@ -520,6 +559,10 @@ h2{
     100%{
         font-size: 16px;
     }
+}
+
+.progressive-circle:hover{
+    visibility: visible;
 }
 
 
