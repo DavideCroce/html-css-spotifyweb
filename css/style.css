@@ -268,7 +268,7 @@ h1{
     position: absolute;
     top: 40%;
     left: 40%;
-    visibility: hidden;
+    opacity: 0;
 }
 
 h2{
@@ -547,13 +547,13 @@ h2{
 
 /* play hovers */
 
-.img-play img:hover{
-   opacity: 0.4;
-   cursor: pointer;
+.img-play:hover img{
+    opacity:0.4;
+    cursor: pointer;
 }
 
-.img-play i:hover{
-    visibility: visible;
+.img-play:hover i{
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -576,8 +576,12 @@ h2{
     }
 }
 
-.progressive-circle:hover{
-    visibility: visible;
+.audio-bar:hover .progressive-circle{
+    opacity: 1;
+}
+
+.player-bar:hover .progressive-circle{
+    opacity: 1;
 }
 
 /* bar color hovers */
