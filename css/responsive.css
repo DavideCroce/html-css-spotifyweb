@@ -40,4 +40,7 @@
     .title{
         order: 1;
     }
+    .download-and-profile{
+        width: 80%;
+    }
 }
