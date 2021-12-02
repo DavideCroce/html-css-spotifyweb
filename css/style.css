@@ -89,6 +89,12 @@ main{
    opacity: 0.5;
 }
 
+.home{
+    border-left: green solid 5px;
+    padding-left: 17px;
+    margin-left: -20px;
+}
+
 .nav-bar{
     color: grey;
     margin-left: 20px;
@@ -224,6 +230,21 @@ h1{
     width: 50%;
 }
 
+.img-play{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.img-play i{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    visibility: hidden;
+}
+
 h2{
     color: white;
     font-weight: bold;
@@ -280,6 +301,10 @@ h2{
 .popular-creators h1{
     margin-left: 20px;
 
+}
+
+.popular-creators h1{
+    margin-bottom: 10px;
 }
 
 .creators{
@@ -425,6 +450,82 @@ h2{
     background-color: #fff;
     border-radius: 10px;
 }
+
+/* hovers */
+
+/* font color hovers */
+
+.nav-icons:hover{
+    opacity: 1;
+}
+
+.nav-bar li:hover{
+    color: white;
+}
+
+.fa-plus:hover{
+    background-color: #fff;
+}
+
+.song-and-creator p:hover{
+    color: white;
+}
+
+.pl:hover{
+    color: white;
+}
+
+.download-app:hover{
+    color: white;
+}
+
+.mn:hover{
+    color: white;
+}
+
+.create-playlist:hover{
+    color: white;
+}
+
+/* underline hovers */
+
+.song-and-creator h4:hover{
+    text-decoration: underline;
+}
+
+
+/* play hovers */
+
+.img-play img:hover{
+   opacity: 0.4;
+}
+
+.img-play i:hover{
+    visibility: visible;
+}
+
+.upgrade:hover{
+    animation: grow 1s;
+}
+
+@keyframes grow{
+    0%{
+        font-size: 16px;
+    }
+
+    50%{
+        font-size: 22px;
+    }
+
+    100%{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
 
 
 
