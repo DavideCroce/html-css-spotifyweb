@@ -25,9 +25,11 @@ body{
 
 .side-bar{
     width: 300px;
-    height: 100%;
+    height: calc(100vh - 100px);
     background-color: black;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-page{
@@ -182,6 +184,8 @@ hr{
     width: 90%;
     bottom: 0;
     left: 20px;
+    background-color: black;
+    height: 150px;
 }
 
 
@@ -224,6 +228,7 @@ h2{
     color: white;
     font-weight: bold;
     font-size: 14px;
+    margin-top: 5px;
 }
 
 .only-one{
@@ -254,6 +259,7 @@ h2{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    text-align: center;
 }
 
 .create-for h1,
@@ -264,4 +270,164 @@ h2{
 .create-for p{
     color: grey;
 }
+
+.popular-creators{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.popular-creators p,
+.popular-creators h1{
+    margin-left: 20px;
+
+}
+
+.creators{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.creators img{
+    border-radius: 50%;
+}
+
+.popular-creators p{
+    color: grey;
+}
+
+
+/*player*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.title img{
+    width: 50px;
+    height: 50px;
+    margin: 25px 5px;
+}
+
+.title{
+    display: flex;
+}
+
+.song-and-creator,
+.fa-heart,
+.fa-folder{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.fa-heart,
+.fa-folder{
+   margin-top: 40px;
+   color: grey;
+}
+
+.fa-heart{
+    margin-left: 30px;
+}
+
+.title p{
+    font-size: 12px;
+    color: grey;
+}
+
+.music-player{
+    display: flex;
+    flex-direction: column;
+}
+
+.player-icons{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fa-play-circle{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.fa-random,
+.fa-step-backward,
+.fa-step-forward,
+.fa-redo{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.player-bar{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.player-bar p{
+    margin: 0 20px;
+}
+
+.progressive-bar{
+    width: 500px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.bar-at{
+    width: 15%;
+    background-color: white;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.progressive-circle{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 95%;
+    display: none;
+}
+
+.audio-and-others{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-list-ul,
+.fa-desktop,
+.fa-volume-up{
+    margin: 0 10px;
+}
+
+.audio-bar{
+    width: 150px;
+    height: 5px;
+    background-color: grey;
+    margin: 0 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.audio-at{
+    width: 30%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+
+
+
 
